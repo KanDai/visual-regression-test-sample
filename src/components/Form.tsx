@@ -8,7 +8,13 @@ export const Form: React.FC = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form
+      onSubmit={handleSubmit}
+      style={{
+        display: "flex",
+        gap: "16px",
+      }}
+    >
       <label>
         メールアドレス
         <input
