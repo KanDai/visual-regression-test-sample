@@ -12,11 +12,11 @@ export const Form: React.FC = () => {
       onSubmit={handleSubmit}
       style={{
         display: "flex",
-        gap: "16px",
+        gap: "32px",
       }}
     >
       <label>
-        メールアドレス
+        Email
         <input
           name="email"
           value={email}
